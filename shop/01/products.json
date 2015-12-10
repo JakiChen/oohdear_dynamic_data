@@ -1,0 +1,30 @@
+[
+    {
+        "productsID"    : "PID01", 
+        "serisNameEn"   : "The Mistletoe",
+        "serisNameZh"   : "槲寄生",
+        "title"         : "925银镶钻石链坠", 
+        "price"         : "699",
+        "JDLink"        : "http://item.jd.com/1469474310.html",
+        "imgUrl"        : "shop/01/products/the-mistletoe-pendant.jpg"
+    },
+    {
+        "productsID"    : "PID02", 
+        "serisNameEn"   : "The Mistletoe",
+        "serisNameZh"   : "槲寄生",
+        "title"         : "925银镶钻石链坠", 
+        "price"         : "699",
+        "JDLink"        : "http://www.baidu.com",
+        "imgUrl"        : "shop/01/products/the-mistletoe-necklace.jpg"
+    },
+    {
+        "productsID"    : "PID03", 
+        "serisNameEn"   : "The Mistletoe",
+        "serisNameZh"   : "槲寄生",
+        "title"         : "925银镶钻石链坠", 
+        "price"         : "699",
+        "JDLink"        : "http://www.google.com",
+        "imgUrl"        : "shop/01/products/the-mistletoe-pendant.jpg"
+    }
+]
+ 

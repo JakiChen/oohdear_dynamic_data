@@ -1,0 +1,43 @@
+<ion-pane>
+    <div class="cover-page">
+        <div class="bg" style="background:url({{boxinfo.cover}}) top center no-repeat; background-size:100%"></div>
+        <div class="logo-loading"></div>
+        <h1 class="logo">ooh Dear</h1>
+        
+        <div class="cover">
+            <div class="slogan">国际时尚珠宝潮牌</div>
+            <div class="introl">
+                <div class="seris-name-en">{{boxinfo.enName}}</div>
+                <div class="seris-name-zh">{{boxinfo.zhName}}·系列</div>
+                <p class="introl-content">{{boxinfo.introl}}</p>
+                <div class="button-pro"  id="button-start">开始探索</div>
+            </div>
+        </div>
+     </div>
+    
+    <h1 class="page-logo">ooh Dear</h1>
+    	 <div class="page-cont">
+            <div ng-repeat="prolist in productsList" href="{{prolist.JDLink}}" PID ="{{prolist.productsID}}" class="page">
+                <ul class="cont">
+                    <li class="seris-name-page">
+                        <span class="zh">{{prolist.serisNameZh}}</span>·<span class="en">{{prolist.serisNameEn}}</span>
+                    </li>
+                    <li class="pro-name">{{prolist.title}}</li>
+                    <li class="price"><span class="symbol">¥</span> {{prolist.price}}</li>
+                    <li class="image"><img src="{{prolist.imgUrl}}"></li>
+                </ul>
+  			</div> 
+         </div>
+    
+    <div id="swiper" on-swipe-up="ngSwipeUp()" on-swipe-down="ngSwipeDown()">
+    	<div class="button-swap button-swap-on"><span>滑动切换</span></div>
+        <ul class="menu" id="menu">
+            <h2 class="cart icon-cart" id="icon-cart">购物车</h2>
+            <li><a href="#" class="menu-icon-wechat"><!--微信支付--></a></li>
+            <li><a href="" class="menu-icon-jd"><!--寄送到家--></a></li>
+            <li><a href="weixin://addfriend/oohdear" onClick="WeiXinAddContact(oohdear)"  class="menu-icon-follow"><!--关注--></a></li>
+            <li><a href="#" class="menu-icon-bear"><!--小熊--></a></li>
+        </ul> 
+    </div>
+</ion-pane>
+
